@@ -1,0 +1,33 @@
+{
+  "appTitle": "Flutter Clean App Base",
+
+  "navHome": "خانه",
+  "navExplore": "کاوش",
+  "navSettings": "تنظیمات",
+
+  "settingsTitle": "تنظیمات",
+  "settingsSectionTheme": "تم",
+  "settingsSectionLanguage": "زبان",
+  "settingsSectionTextSize": "اندازه متن",
+
+  "themeSystem": "مطابق تنظیمات سیستم",
+  "themeLight": "روشن",
+  "themeDark": "تاریک",
+
+  "langSystem": "مطابق زبان سیستم",
+  "langEnglish": "انگلیسی",
+  "langPersian": "فارسی",
+
+  "textscaleDecrease": "کوچک‌تر کردن متن",
+  "textscaleIncrease": "بزرگ‌تر کردن متن",
+
+  "textscaleCurrent": "بزرگ‌نمایی فعلی: {value} برابر",
+  "@textscaleCurrent": {
+    "description": "مقدار فعلی بزرگ‌نمایی متن.",
+    "placeholders": {
+      "value": {
+        "type": "double"
+      }
+    }
+  }
+}

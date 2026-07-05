@@ -1,0 +1,33 @@
+{
+  "appTitle": "Flutter Clean App Base",
+
+  "navHome": "Home",
+  "navExplore": "Explore",
+  "navSettings": "Settings",
+
+  "settingsTitle": "Settings",
+  "settingsSectionTheme": "Theme",
+  "settingsSectionLanguage": "Language",
+  "settingsSectionTextSize": "Text size",
+
+  "themeSystem": "Follow system",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+
+  "langSystem": "Follow system",
+  "langEnglish": "English",
+  "langPersian": "Persian",
+
+  "textscaleDecrease": "Decrease text size",
+  "textscaleIncrease": "Increase text size",
+
+  "textscaleCurrent": "Current scale: {value}x",
+  "@textscaleCurrent": {
+    "description": "Shows the current text zoom level.",
+    "placeholders": {
+      "value": {
+        "type": "double"
+      }
+    }
+  }
+}

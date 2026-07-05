@@ -1,0 +1,17 @@
+# Flutter localization configuration for `flutter gen-l10n`.
+# This file tells Flutter where to find ARB files and how to generate
+# the strongly-typed AppLocalizations class.
+
+# Directory that contains your .arb files (en, fa, ...).
+arb-dir: lib/config/localization
+
+# The "base" ARB file used as the template for all other locales.
+# Usually contains all keys and the default (fallback) language.
+template-arb-file: app_en.arb
+
+# Name of the generated Dart file (inside the same directory as arb-dir).
+output-localization-file: app_localizations.dart
+
+# Name of the generated localization class used in the app.
+# Example usage: `final t = AppLocalizations.of(context)!;`
+output-class: AppLocalizations
