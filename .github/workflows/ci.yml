@@ -42,6 +42,9 @@ jobs:
             echo "No test directory found — skipping tests."
           fi
 
+      - name: Accept Android SDK licenses
+        run: yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses
+
       - name: Build debug APK
         run: flutter build apk --debug
 
