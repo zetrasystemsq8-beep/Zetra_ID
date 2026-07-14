@@ -1,0 +1,27 @@
+name: AI Code Editor
+on:
+  issues:
+    types: [labeled]  # Runs when you label an issue
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  edit:
+    runs-on: ubuntu-latest
+    if: github.event.label.name == 'ai-task'  # Only runs with this label
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Run AI Edit
+        uses: Manav916/llm-code-review@main  # Uses Groq
+        with:
+          groq_api_key: ${{ secrets.GROQ_API_KEY }}
+          groq_model: 'llama3-70b-8192'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          repo_owner: ${{ github.repository_owner }}
+          repo_name: ${{ github.event.repository.name }}
+          event_number: ${{ github.event.issue.number }}
+          event_name: ${{ github.event_name }}
