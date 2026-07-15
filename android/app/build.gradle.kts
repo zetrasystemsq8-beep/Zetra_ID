@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.baseapp.cleanarchitecture.flutter_clean_app_base"
+    namespace = "com.zetrasystems.zetraid"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = "28.0.12674087"
 
@@ -21,7 +21,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.baseapp.cleanarchitecture.flutter_clean_app_base"
+        applicationId = "com.zetrasystems.zetraid"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion
