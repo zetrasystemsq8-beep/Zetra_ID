@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_clean_app_base/core/extensions/spacing.dart';
+import 'package:zetra_id/core/extensions/spacing.dart';
 
 import '../../../../config/localization/app_localizations.dart';
 import '../../../../config/theme/theme_cubit.dart';
