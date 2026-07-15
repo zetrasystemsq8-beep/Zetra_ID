@@ -1,0 +1,11 @@
+{
+  "entries": [
+    {
+      "id": "7c9c2771-4e16-442c-afa2-119ebd8ec8c2",
+      "kind": "goal",
+      "title": "Rename Package and Application ID",
+      "content": "Renaming Flutter package from 'flutter_clean_app_base' to 'zetra_id' and Android applicationId to 'com.zetrasystems.zetraid'.",
+      "updatedAt": "2026-07-15T06:39:02.022Z"
+    }
+  ]
+}
